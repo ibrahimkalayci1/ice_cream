@@ -1,49 +1,33 @@
-# Kütüphaneler
+<h1>Unit Test Ice Cream with React  </h1>
 
--json-server
--bootstrap
--axios@^0.27.2
--@testing-library/user-event@14.0
+<hr>
 
-# selector   seçici
--test içerisind jsx elementlerini çağırmaya yarayan methodlardır
--screen nesnesi ile kullanlr
+<h2>Technologies Used</h2>
 
-# HTML ELEMENTLERİNİN  ROLLERİ
--her html elementinin kendini temsil eden bir rolü vardır. bu rol ismi bazen etiket ismi ile aynı (button un rolü buton) bazen de faarklı olur
+<p>
 
-# MATCHERS KONTROLCÜLER
--expect komutu ile birlikte kullanılan ve bir element veya  değişken üzerindeki beklentimizi kontrol eden metodlardr. rengi kırmızı, checkbox tikli, buton aktif
+# Libraries
 
-# TEST GELİŞTİRME SÜRECİ
 
-## TDD (TEST DRİVEN DEVELOPMENT)
--önce tesler yazılır sonra işlevler /bileşenler kodlanır
--red to green
--Artısı testler yük olarak gelmez test yazmak geliştirme sürecinin bir parçası oluyor. testleri yazareknen dinamik yapının bir algoritmasını oluşturdgmz için işlevi daha hızlı kodluyrz
+- axios
+  </br>
+- bootstrap
+  </br>
+- react-dom
+  </br>
+- json-server
+  </br>
+- react-redux
+  </br>
+- @testing-library/user-event@14.0
+  </br></br>
 
-## BDD (BEHAVİOUR DRİVEN DEVELOPMENT)
--önce işlev/bileşen kodlanr sonra testler yapılır
+# Testing Process
 
-## FİRE EVENT
--rtl içerisinde gelen olay tetiklemek için kullandgmz method.
-- gercek kullanıcıdan uzak tepkiler verdiği için yerini UserEvent a bıraktı.
--Tetiklenen olaylar gerçek bir insanın tepkisinden çok daha hızlı bir şekilde aniden gerçekleştği için testlerde tutarsızlıklara ve beklenmedik sonuçlara sebep olablyr
+</br></br>
 
-# UserEvent
-fire event in gelişmiş versiyonu
-tetikledgmz olaylar fire event gibi doğrudan tetiklenmesinin yerine gercek bir kullanıcı simule ederek belirli birvgecikmeden sonra tetklnr
-kullanmı için user event kütüphanesi kurulmaldr
-async calstgı için async await ile kullanlr
+- BDD
+  </br>
+  </br> Responsive </p>
 
-## mock 
-
-- unit testlerde "mock" kullanımı, bir fonksiyonun veya nesnenin  belirli bir kısmını izole ederek test etmeye yarar. Özellikle dış bağımlılıkları olan fonksiyonları test etmek için kullanılır. Bu sayede gerçek sistem bileşenlerine bağımlı olmadan sadece test edilmek istenen kodun doğru çalışıp çalışmadığı kontrol edilir.
-
--dışa bağımlılıkları izole ederiz
-
--fonksiyonlar çgrldımı kontrolu yapmamızı sağlar
-
--fonksiyonlara gönderilen parametreleri kontrol edebilir
-
-## 100% test coverage# ice_cream
+![ice cream](https://github.com/user-attachments/assets/2292d4cc-6fb9-4efc-b769-efd018b406f1)
